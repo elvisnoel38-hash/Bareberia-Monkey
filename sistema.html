@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería Monkey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header class="header">
+            <div class="carrusel">
+                <div class="slide slide1">
+                    <div class="texto-slide">
+                        <h2>BARBERÍA MONKEY</h2>
+                        <p>Luce un estilo único con nuestros cortes y servicios.</p>
+                        <a href="#cortes" class="boton">Ver cortes</a>
+                    </div>
+                </div>
+                <div class="slide slide2">
+                    <div class="texto-slide">
+                        <h2>ESTILO CLÁSICO</h2>
+                        <p>Elegancia y buen acabado en cada visita.</p>
+                        <a href="#contacto" class="boton">Reservar cita</a>
+                    </div>
+                </div>
+                <div class="slide slide3">
+                    <div class="texto-slide">
+                        <h2>FADE MODERNO</h2>
+                        <p>Cortes actuales y personalizados.</p>
+                        <a href="#contacto" class="boton">Reservar cita</a>
+                    </div>
+                </div>
+                <div class="slide slide4">
+                    <div class="texto-slide">
+                        <h2>CORTE + BARBA</h2>
+                        <p>Servicio completo para cabello y barba.</p>
+                        <a href="#contacto" class="boton">Reservar cita</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="menu">  
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburguesa">
+                <span></span><span></span><span></span> <b>Menú</b>
+            </label>
+            <ul class="menu-list">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#cortes">Cortes</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="index.html" class="salir">Salir</a></li>
+            </ul>
+        </nav>
+
+        <main class="contenido" id="inicio">
+            <section class="introduccion">
+                <h2>Bienvenido a Barbería Monkey</h2>
+                <p>Cortes modernos, clásicos y arreglo de barba con atención profesional.</p>
+            </section>
+
+            <section class="cortes" id="cortes">
+                <h2>Nuestros cortes</h2>
+                <div class="tarjetas">
+                    <article class="tarjeta">
+                        <img src="fotos/tres.jpg" alt="Corte Clásico">
+                        <div class="tajeta-contenido">
+                            <span class="categoria">CLÁSICO</span>
+                            <h3>Corte Clásico</h3>
+                            <p>Tradicional y limpio para cualquier ocasión.</p>
+                            <div class="precio">Desde Bs. 30</div>
+                            <a href="#contacto" class="boton-card">Reservar cita</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="fotos/seis.jpg" alt="Textured Crop Mid Fade">
+                        <div class="tajeta-contenido">
+                            <span class="categoria">MODERNO</span>
+                            <h3>Textured Crop</h3>
+                            <p>Degradado medio con textura natural.</p>
+                            <div class="precio">Desde Bs. 35</div>
+                            <a href="#contacto" class="boton-card">Reservar cita</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="fotos/cuatro.jpg" alt="Corte y Barba">
+                        <div class="tajeta-contenido">
+                            <span class="categoria">COMPLETO</span>
+                            <h3>Corte + Barba</h3>
+                            <p>Perfilado de barba y corte profesional.</p>
+                            <div class="precio">Desde Bs. 50</div>
+                            <a href="#contacto" class="boton-card">Reservar cita</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="fotos/diez.jpg" alt="Mid Fade con líneas">
+                        <div class="tajeta-contenido">
+                            <span class="categoria">URBANO</span>
+                            <h3>Mid Fade + Líneas</h3>
+                            <p>Acabado marcado con diseño lateral.</p>
+                            <div class="precio">Desde Bs. 35</div>
+                            <a href="#contacto" class="boton-card">Reservar cita</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="fotos/once.jpg" alt="Degradado y Barba">
+                        <div class="tajeta-contenido">
+                            <span class="categoria">ESTILO</span>
+                            <h3>Low Fade + Barba</h3>
+                            <p>Degradado suave y barba bien definida.</p>
+                            <div class="precio">Desde Bs. 45</div>
+                            <a href="#contacto" class="boton-card">Reservar cita</a>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="fotos/cinco.jpg" alt="Catálogo de estilos">
+                        <div class="tajeta-contenido">
+                            <span class="categoria">CATÁLOGO</span>
+                            <h3>15 Estilos Disponibles</h3>
+                            <p>Elige el corte que mejor va con tu rostro.</p>
+                            <div class="precio">Desde Bs. 30</div>
+                            <a href="#contacto" class="boton-card">Reservar cita</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="servicios" id="servicios">
+                <h2>Nuestros servicios</h2>
+                <div class="servicios-grid">
+                    <article>
+                        <div class="icono">✂️</div>
+                        <h3>Cortes</h3>
+                        <p>Clásicos y modernos.</p>
+                    </article>
+                    <article>
+                        <div class="icono">💈</div>
+                        <h3>Barbería</h3>
+                        <p>Atención profesional.</p>
+                    </article>
+                    <article>
+                        <div class="icono">🧔</div>
+                        <h3>Barba</h3>
+                        <p>Perfilado y cuidado.</p>
+                    </article>
+                    <article>
+                        <div class="icono">✨</div>
+                        <h3>Estilo</h3>
+                        <p>Higiene y detalle.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="nosotros" id="nosotros">
+                <div>
+                    <h2>Sobre Barbería Monkey</h2>
+                    <p>Brindamos cortes de cabello y arreglo de barba con estilo propio.</p>
+                </div>
+                <div class="estadisticas">
+                    <div><strong>+500</strong><span>Clientes</span></div>
+                    <div><strong>+15</strong><span>Cortes</span></div>
+                    <div><strong>100%</strong><span>Calidad</span></div>
+                </div>
+            </section>
+
+            <section class="contacto" id="contacto">
+                <h2>Reserva tu cita</h2>
+                <form id="formCita" class="form">
+                    <input type="text" id="nombre" placeholder="Nombre completo" required>
+                    <input type="email" id="correo" placeholder="Correo electrónico" required>
+                    <select id="servicio" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="Corte Clásico">Corte Clásico</option>
+                        <option value="Textured Crop">Textured Crop</option>
+                        <option value="Corte + Barba">Corte + Barba</option>
+                        <option value="Mid Fade + Líneas">Mid Fade + Líneas</option>
+                        <option value="Low Fade + Barba">Low Fade + Barba</option>
+                    </select>
+                    <input type="date" id="fecha" required>
+                    <textarea id="mensaje" placeholder="Mensaje o preferencia"></textarea>
+                    <button type="submit" class="boton">Reservar cita</button>
+                </form>
+            </section>
+        </main>
+
+        <aside class="aside">
+            <div class="aside-card">
+                <h2>Promoción</h2>
+                <p>Corte + Barba</p>
+                <div class="descuento">20% OFF</div>
+                <a href="#contacto" class="boton">Aprovechar</a>
+            </div>
+            <div class="aside-card">
+                <h2>Horarios</h2>
+                <p>Lun a Sáb: 10:00 - 22:00</p>
+            </div>
+            <div class="aside-card">
+                <h2>Contacto</h2>
+                <p>WhatsApp: +591 72069982</p>
+                <p>barberiamonkey@gmail.com</p>
+            </div>
+        </aside>
+
+        <footer class="footer">
+            <div>
+                <h2>Barbería Monkey</h2>
+                <p>Tu estilo, nuestra pasión.</p>
+            </div>
+            <div>
+                <h3>Enlaces</h3>
+                <a href="#inicio">Inicio</a>
+                <a href="#cortes">Cortes</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <div>
+                <h3>Redes</h3>
+                <p>Facebook · Instagram · TikTok</p>
+            </div>
+            <div class="copyright">
+                <p>© 2026 Barbería Monkey.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
